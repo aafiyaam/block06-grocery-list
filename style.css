@@ -1,0 +1,79 @@
+header {
+    color:green;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: bold;
+    text-align: center;
+}
+
+.itemtype {
+   border: 5px solid;
+   border-color: black;
+   background-color: burlywood;
+   padding: 0.5rem;
+   margin-right: 1200px;
+   margin-top: 50px;
+}
+
+h1 {
+  color:black;
+    font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+    font-display: bold;
+}
+
+h2 {
+  color:black;
+    font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+    font-display: bold;
+}
+
+.itemtype p {
+    font-size: 30px; 
+    color: black;
+     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.where {
+    border: 2px solid;
+    border-color: black;
+    background-color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    margin-right: 1200px;
+    margin-top: 10px;
+
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column {
+  flex: 33%;
+  padding: 2px;
+}
+
+table {
+  border: 1px solid;
+  border-color: black;
+  border-spacing: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+  width: 33%;
+  padding-right: 5px;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
